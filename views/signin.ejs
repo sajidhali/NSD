@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div class="loginform">
+            <h1>Login</h1>
+            
+            <form method="post" action="/signin">
+                <div>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" required><br>
+                </div>
+                <div>
+                    <label for="password">Password</label><br>
+                <input type="password" name="password" required><br>
+                </div>
+                <div>
+                    <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                    <label class="custom-control-label" for="customSwitch1">keep me logged in</label>
+                  </div>
+                
+                <button type="submit">Login</button>
+                <p>Don't have an account?<a href="./signup">Register</a></p>
+            </form>
+        </div>
+    </form>
+</body>
+</html>
